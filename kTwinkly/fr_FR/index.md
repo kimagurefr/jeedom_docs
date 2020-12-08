@@ -208,3 +208,7 @@ Vous pouvez désormais réactiver le rafraîchissement automatique des informati
 #### Etape 7 - Désactiver le proxy sur le smartphone
 
 N'oubliez pas de repasser le paramétrage du proxy sur "Aucun" ou "Désactivé" pour rétablir le fonctionnement normal de votre smartphone. Un oubli rendra l'accès wifi inopérant jusqu'à désactivation.
+
+## Changelog
+
+Le changelog est disponible [ici](changelog.md).
