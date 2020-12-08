@@ -1,0 +1,18 @@
+theme: jekyll-theme-slate
+title: Jeedom - Kimagure
+description: Documents plugins Jeedom
+
+author:
+  Kimagure
+  
+languages: ["en", "fr"]
+defaultLang: fr
+languageNames:
+  fr: Français
+  en: English
+  
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  
+markdown: CommonMarkGhPages
