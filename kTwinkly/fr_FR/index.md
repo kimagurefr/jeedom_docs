@@ -1,3 +1,10 @@
+---
+title: Jeedom | Plugin kTwinkly
+description: Pilotage des guirlandes connectées Twinkly
+---
+
+<img align="right" src="../images/kTwinkly_icon.png" width="100">
+
 # Plugin kTwinkly
 
 Ce plugin pour Jeedom permet le pilotage des guirlandes connectées [Twinkly](https://www.twinkly.com/)
