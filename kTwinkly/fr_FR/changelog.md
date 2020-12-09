@@ -2,21 +2,27 @@
 
 >**IMPORTANT**
 >
->Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+>Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
+
+Pour le changelog de la beta, voir [ici](#Version-beta)
+
+# Version Stable
+
+## 09 Décembre 2020
+
+``STABLE`` Première version stable
 
 
 
-## 05 Décembre 2020
+# Version beta
 
-``BETA`` Publication de la première version beta
+## 09 Décembre 2020
 
-## 06 Décembre 2020
+``BETA`` Changement du nom par défaut des animations capturées ou chargées
 
-``BETA`` Renommage de la classe utilitaire de Twinkly en TwinklyString pour éviter les éventuels conflits avec l'autre plugin Twinkly.
+``BETA`` Simplification de la fenêtre de gestion des animations
 
-``BETA`` Utilisation du mode "effect" au lieu du mode "movie" pour les guirlandes GEN2.
 
-``BETA`` Correction du process de démarrage du proxy mitmdump.
 
 ## 07 Décembre 2020
 
@@ -30,11 +36,20 @@
 
 `BETA` Image d’équipement par défaut si l’image n’est pas trouvée dans la librairie du plugin
 
-## 09 Décembre 2020
 
-``BETA`` Changement du nom par défaut des animations capturées ou chargées
 
-``BETA`` Simplification de la fenêtre de gestion des animations
+## 06 Décembre 2020
 
-``STABLE`` Première version stable
+``BETA`` Renommage de la classe utilitaire de Twinkly en TwinklyString pour éviter les éventuels conflits avec l'autre plugin Twinkly.
 
+``BETA`` Utilisation du mode "effect" au lieu du mode "movie" pour les guirlandes GEN2.
+
+``BETA`` Correction du process de démarrage du proxy mitmdump.
+
+
+
+## 05 Décembre 2020
+
+``BETA`` Publication de la première version beta
+
+# 
