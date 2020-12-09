@@ -30,5 +30,9 @@
 
 `BETA` Image d’équipement par défaut si l’image n’est pas trouvée dans la librairie du plugin
 
+## 09 Décembre 2020
 
+``STABLE`` Première version stable
+
+``BETA`` Changement du nom par défaut des animations capturées
 
