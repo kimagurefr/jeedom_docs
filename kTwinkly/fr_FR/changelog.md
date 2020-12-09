@@ -32,7 +32,9 @@
 
 ## 09 Décembre 2020
 
-``STABLE`` Première version stable
+``BETA`` Changement du nom par défaut des animations capturées ou chargées
 
-``BETA`` Changement du nom par défaut des animations capturées
+``BETA`` Simplification de la fenêtre de gestion des animations
+
+``STABLE`` Première version stable
 
