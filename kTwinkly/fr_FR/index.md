@@ -19,7 +19,7 @@ Certaines fonctionnalités peuvent ne pas être disponibles sur les guirlandes d
 
 
 
-## ![](https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/warning.png)Information importante
+## <img align="left" src="../images/warning.png">Information importante
 
 A cause d'une limitation "by design" du mécanisme d'authentification sur le contrôleur Twinkly, il est n'est possible d'utiliser qu'**un seul outil à la fois** pour piloter une guirlande. Il n'est donc pas possible d'utiliser confortablement et sans erreur le plugin en même temps que l'app mobile. Cette limitation n'est pas spécifique à ce plugin, mais empêche également l'utilisation simultanée de plusieurs smartphones pour piloter une même guirlande : voir la [FAQ](https://www.twinkly.com/knowledge/how-to-manage-twinkly-from-multiple-smartphone/) sur le site de Twinkly.
 
@@ -37,7 +37,7 @@ Il y a 2 paramètres disponibles dans la configuration générale du plugin :
 - le port HTTP du proxy qui sera lancé sur le serveur Jeedom pour [capturer les animations](#capture-des-animations) depuis l'application mobile.
 - une option de debugging permettant d'activer les logs du proxy de capture. Ces logs seront visibles sous le nom kTwinkly_mitm dans la page de logs de Jeedom. La log est écrasée à chaque démarrage du proxy.
 
-![](https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/config_plugin.png)
+![](../images/config_plugin.png)
 
 
 
@@ -49,7 +49,7 @@ Depuis la page du plugin (Objets Connectés > Twinkly), il faut ensuite créer o
 
 
 
-La solution la plus simple est d'utiliser le bouton <img src="https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/recherche.png" alt="Recherche" style="zoom: 25%;" /> pour lancer la découverte automatique des équipements.
+La solution la plus simple est d'utiliser le bouton <img src="../images/recherche.png" alt="Recherche" style="zoom: 25%;" /> pour lancer la découverte automatique des équipements.
 
 
 
@@ -60,7 +60,7 @@ Si la découverte automatique ne marche pas (équipements sur un réseau différ
 
 Ces 2 informations sont visibles dans l'application mobile Twinkly.
 
-![Configuration Equipement](https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/config_equipement.png)
+![Configuration Equipement](../images/config_equipement.png)
 
 Après sauvegarde de l'équipement, les caractéristiques seront récupérées depuis le contrôleur de la guirlande.
 
@@ -91,9 +91,9 @@ Ces valeurs sont rafraîchies automatiquement à la fréquence choisie sur la pa
 
 ## Gestion des animations et playlists
 
-Les animations disponibles pour un équipement (guirlandes) sont gérées par la fenêtre accessible en utilisant le bouton <img src="https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/bouton_animations.png" style="zoom:33%;" />
+Les animations disponibles pour un équipement (guirlandes) sont gérées par la fenêtre accessible en utilisant le bouton <img src="../images/bouton_animations.png" style="zoom:33%;" />
 
-![Fenêtre de gestion des animations](https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/animations.png)
+![Fenêtre de gestion des animations](../images/animations.png)
 
 Depuis cette fenêtre, il est possible :
 
@@ -142,7 +142,7 @@ Il suffit de décocher la case **Rafraîchissement auto** de l'équipement et de
 
 **Attention** : cette étape nécessite que l'installation des dépendances depuis la page de configuration du proxy ait été réalisée. Le processus de capture s'appuie sur l'outil *mitmdump* du projet [mitmproxy](https://mitmproxy.org/) qui est installé depuis les repos de la distribution Linux du serveur (Debian la plupart du temps).
 
-Il suffit de cliquer sur le bouton <img src="https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/bouton_capture.png" style="zoom:33%;" /> pour démarrer le proxy.
+Il suffit de cliquer sur le bouton <img src="../images/bouton_capture.png" style="zoom:33%;" /> pour démarrer le proxy.
 
 Un message s'affiche avec les informations à utiliser pour configurer le proxy sur le smartphone (adresse IP et port). L'adresse IP est l'IP interne du serveur Jeedom. Le port est celui choisi dans la [page de configuration générale du plugin]( #installation-du-plugin), ou 14233 par défaut.
 
@@ -152,17 +152,17 @@ Un message s'affiche avec les informations à utiliser pour configurer le proxy 
 
 ##### Sur iOS
 
-- Aller dans Réglages > Wi-Fi > Cliquer sur l'icône ![i](https://kimagurefr.github.io/jeedom_kTwinklyDoc/images/info-circle.png) à côté du nom du réseau.
+- Aller dans Réglages > Wi-Fi > Cliquer sur l'icône ![i](../images/info-circle.png) à côté du nom du réseau.
 
-![](https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/proxy1.png)
+![](../images/proxy1.png)
 
 - En bas de la page, sélectionner "PROXY HTTP / Configurer le proxy"
 
-![](https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/proxy2.png)
+![](../images/proxy2.png)
 
 - Puis dans la page de configuration, entrer les informations du proxy affichées sur l'écran du plugin
 
-  ![](https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/proxy3.png)
+  ![](../images/proxy3.png)
 
 - Enregistrer la configuration
 
@@ -172,19 +172,19 @@ En fonction versions d'Android et des différentes surcouches constructeur ou op
 
 - Accéder à la page des paramètres du réseau Wifi
 
-  <img src="https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/proxy-android1.png" alt="Paramètres wifi" style="zoom:50%;" />
+  <img src="../images/proxy-android1.png" alt="Paramètres wifi" style="zoom:50%;" />
 
 - Accéder aux paramètres avancés
 
-  <img src="https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/proxy-android2.png" style="zoom:50%;" />
+  <img src="../images/proxy-android2.png" style="zoom:50%;" />
 
 - Sélectionner l'entrée "Proxy" et choisir "Manuel"
 
-  <img src="https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/proxy-android3.png" style="zoom:50%;" />
+  <img src="../images/proxy-android3.png" style="zoom:50%;" />
 
 - Entrer les paramètres du proxy affichés sur la page du plugin
 
-  <img src="https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/proxy-android4.png" style="zoom:50%;" />
+  <img src="../images/proxy-android4.png" style="zoom:50%;" />
 
 - Enregistrer la configuration
 
@@ -192,7 +192,7 @@ En fonction versions d'Android et des différentes surcouches constructeur ou op
 
 Il suffit de lancer l'application mobile Twinkly, de choisir les animations que vous souhaitez capturer dans la galerie et de l'envoyer vers le sapin. Attention, afficher l'animation sur l'écran de prévisualisation ne suffit pas, il faut vraiment télécharger l'animation vers la guirlande pour qu'elle puisse être capturée par le proxy.
 
-<img src="http://kimagurefr.github.io/jeedom_docs/kTwinkly/images/movie-download.png" style="zoom: 33%;" />
+<img src="../images/movie-download.png" style="zoom: 33%;" />
 
 #### Etape 5 - Arrêt de la capture et récupération des fichiers
 
@@ -206,7 +206,7 @@ Dans les 2 cas, il est bien sûr possible de changer le titre (ne pas oublier de
 
 Si aucune animation n'a pu être capturée, le message ci-dessous sera affiché.
 
-![](https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/aucune_animation.png)
+![](../images/aucune_animation.png)
 
 Vérifiez que le proxy a correctement été configuré sur le smartphone et que avez bien envoyé l'animation vers la bonne guirlande.
 
