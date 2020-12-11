@@ -16,6 +16,12 @@ Pour le changelog de la beta, voir [ici](#version-beta)
 
 # Version beta
 
+## 11 Décembre 2020
+
+``BETA`` Correction d'un bug sur le chargement des animations GEN2 hors playlist
+
+``BETA`` Optimisation du changement d'animation (pas de rechargement en mémoire si l'animation est déjà présente dans le controleur)
+
 ## 10 Décembre 2020
 
 ``BETA`` Ajout d'une popup de confirmation de suppression des animations
