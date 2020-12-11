@@ -89,7 +89,7 @@ Ces valeurs sont rafraîchies automatiquement à la fréquence choisie sur la pa
 
 
 
-## Gestion des animations
+## Gestion des animations et playlists
 
 Les animations disponibles pour un équipement (guirlandes) sont gérées par la fenêtre accessible en utilisant le bouton <img src="https://kimagurefr.github.io/jeedom_docs/kTwinkly/images/bouton_animations.png" style="zoom:33%;" />
 
@@ -100,8 +100,17 @@ Depuis cette fenêtre, il est possible :
 - d'ajouter une animation depuis un fichier zip qui aurait préalablement été capture puis sauvegardé sur disque, en utilisant le bouton **Ajouter**
 - de supprimer une animation de la liste, en cochant la case correspondante, puis en cliquant sur le bouton **Supprimer**
 - de télécharger une animation préalablement capturée en cliquant sur l'icône à la fin de la ligne correspondante
-- de changer le titre affiché dans la liste pour chaque animation. La valeur initiale est récupérée lors de la capture pour les guirlandes "gen 2" (compatibles "playlist"). Pour les guirlandes gen1, le nom n'est pas envoyé par l'application mobile, donc le GUID correspondant au nom du zip est affiché, il suffit de le remplacer par le nom choisi
-- de réordonner la liste des animations via drag-and-drop, pour choisir l'ordre d'affichage dans la liste de l'équipement
+- de changer le titre affiché dans la liste pour chaque animation. La valeur initiale est récupérée lors de la capture pour les guirlandes "gen 2" (compatibles "playlist"). Pour les guirlandes gen1, le nom n'est pas envoyé par l'application mobile, un nom est généré automatique et il est évidemment possible de le changer
+- de réordonner la liste des animations via drag-and-drop, pour choisir l'ordre d'affichage dans la liste déroulante "movies" de l'équipement
+- de vider les animations chargées en mémoire. Elles devront être téléchargées de nouveau vers le contrôleur à la prochaine utilisation
+
+Il est également possible de gérer les **playlists**
+
+- Création d'une nouvelle playlist à partir des animations sélectionnées
+- Ajout des animations sélectionnées à la playlist courante
+- Suppression de la playlist courante
+
+Lors de l'ajout de plusieurs animations à la playlist, l'ordre est celui correspondant à la liste. Il est possible de réordonner les lignes pour choisir l'ordre voulu avant d'ajouter les animations. Sans sauvegarder, l'ordre d'origine sera maintenu pour la liste déroulante "movies".
 
 
 
