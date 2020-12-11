@@ -190,7 +190,7 @@ En fonction versions d'Android et des différentes surcouches constructeur ou op
 
 #### Etape 4 - Utilisation de l'app mobile Twinkly
 
-Il faut lancer l'application mobile Twinkly, de choisir les animations que vous souhaitez capturer dans la galerie et de l'envoyer vers le sapin. Attention, afficher l'animation sur l'écran de prévisualisation ne suffit pas, il faut vraiment télécharger l'animation vers la guirlande pour qu'elle puisse être capturée par le proxy.
+Il suffit de lancer l'application mobile Twinkly, de choisir les animations que vous souhaitez capturer dans la galerie et de l'envoyer vers le sapin. Attention, afficher l'animation sur l'écran de prévisualisation ne suffit pas, il faut vraiment télécharger l'animation vers la guirlande pour qu'elle puisse être capturée par le proxy.
 
 <img src="http://kimagurefr.github.io/jeedom_docs/kTwinkly/images/movie-download.png" style="zoom: 33%;" />
 
