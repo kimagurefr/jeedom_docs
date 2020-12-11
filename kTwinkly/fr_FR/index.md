@@ -19,7 +19,7 @@ Certaines fonctionnalités peuvent ne pas être disponibles sur les guirlandes d
 
 
 
-## Information importante
+## ![](C:\Downloads\Twinkly\Plugin_doc\images\warning.png)Information importante
 
 A cause d'une limitation "by design" du mécanisme d'authentification sur le contrôleur Twinkly, il est n'est possible d'utiliser qu'**un seul outil à la fois** pour piloter une guirlande. Il n'est donc pas possible d'utiliser confortablement et sans erreur le plugin en même temps que l'app mobile. Cette limitation n'est pas spécifique à ce plugin, mais empêche également l'utilisation simultanée de plusieurs smartphones pour piloter une même guirlande : voir la [FAQ](https://www.twinkly.com/knowledge/how-to-manage-twinkly-from-multiple-smartphone/) sur le site de Twinkly.
 
