@@ -21,7 +21,7 @@ Certaines fonctionnalités peuvent ne pas être disponibles sur les guirlandes d
 
 ## <img align="left" src="../images/warning.png">Information importante
 
-A cause d'une limitation "by design" du mécanisme d'authentification sur le contrôleur Twinkly, il est n'est possible d'utiliser qu'**un seul outil à la fois** pour piloter une guirlande. Il n'est donc pas possible d'utiliser confortablement et sans erreur le plugin en même temps que l'app mobile. Cette limitation n'est pas spécifique à ce plugin, mais empêche également l'utilisation simultanée de plusieurs smartphones pour piloter une même guirlande : voir la [FAQ](https://www.twinkly.com/knowledge/how-to-manage-twinkly-from-multiple-smartphone/) sur le site de Twinkly.
+A cause d'une limitation du mécanisme d'authentification sur le contrôleur Twinkly, il est n'est possible d'utiliser qu'**un seul outil à la fois** pour piloter une guirlande. Il n'est donc pas possible d'utiliser confortablement et sans erreur le plugin en même temps que l'app mobile. Cette limitation n'est pas spécifique à ce plugin, mais empêche également l'utilisation simultanée de plusieurs smartphones pour piloter une même guirlande : voir la [FAQ](https://www.twinkly.com/knowledge/how-to-manage-twinkly-from-multiple-smartphone/) sur le site de Twinkly.
 
 Pour contourner ce problème, notamment pendant les phases de capture des animations qui se font au travers de l'app mobile, il est possible de désactiver temporairement le rafraichissement automatique des informations d'une guirlande par le plugin. Plus aucun accès n'est donc fait en arrière plan par le plugin, et l'app mobile est pleinement utilisable.
 
@@ -58,9 +58,11 @@ Si la découverte automatique ne marche pas (équipements sur un réseau différ
 - L'adresse IP de la guirlande
 - L'adresse MAC
 
-Ces 2 informations sont visibles dans l'application mobile Twinkly.
-
 ![Configuration Equipement](../images/config_equipement.png)
+
+Ces 2 informations sont trouvables dans l'application mobile Twinkly.
+
+![](../images/config_equipement2.png)
 
 Après sauvegarde de l'équipement, les caractéristiques seront récupérées depuis le contrôleur de la guirlande.
 
