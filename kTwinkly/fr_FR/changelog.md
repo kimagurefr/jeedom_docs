@@ -22,6 +22,10 @@ Pour le changelog de la beta, voir [ici](#version-beta)
 
 ``BETA`` Optimisation du changement d'animation (pas de rechargement en mémoire si l'animation est déjà présente dans le controleur)
 
+``BETA`` Nouvelle optimisations et corrections des actions "supprimer playlist" et "vider mémoire"
+
+``BETA`` Quelques corrections sur l'interface utilisateur. Icones sur les boutons.
+
 ## 10 Décembre 2020
 
 ``BETA`` Ajout d'une popup de confirmation de suppression des animations
