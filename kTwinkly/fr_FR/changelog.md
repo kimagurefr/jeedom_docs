@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+## ``BETA`` 12 Décembre 2020
+
+Correction du script d'installation des dépendances pour installation python3.7 depuis les repos apt s'il est disponible
+
 
 
 ## ``BETA`` 11 Décembre 2020
