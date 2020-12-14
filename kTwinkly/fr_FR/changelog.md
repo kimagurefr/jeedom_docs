@@ -4,6 +4,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+
+
+## ``BETA`` 14 Décembre 2020
+
+Correction du script d'installation des dépendances pour les Raspberry Pi sous Debian 9/Strech à cause d'une incompatibilité entre le module cryptography installé via PyWheels et avec la version 1.1.0 de OpenSSL installée sur cet OS.
+
+
+
 ## ``BETA`` 12 Décembre 2020
 
 Correction du script d'installation des dépendances pour installation python3.7 depuis les repos apt s'il est disponible
