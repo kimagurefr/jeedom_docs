@@ -6,6 +6,10 @@
 
 
 
+## ``STABLE`` 15 Décembre 2020
+
+Gestion des playlists, sans possibilité de changer le timing pour l'instant (30 secondes entre chaque animation).
+
 ## ``BETA`` 14 Décembre 2020
 
 Correction du script d'installation des dépendances pour les Raspberry Pi sous Debian 9/Strech à cause d'une incompatibilité entre le module *cryptography* installé via PyWheels avec la version 1.1.0 de OpenSSL installée sur cet OS.
