@@ -6,6 +6,10 @@
 
 
 
+## ``BETA`` 16 Décembre 2020
+
+Nouvel écran dédié de gestion de la playlist, avec possibilité de choisir la durée de chaque animation.
+
 ## ``STABLE`` 15 Décembre 2020
 
 Gestion des playlists, sans possibilité de changer le timing pour l'instant (30 secondes entre chaque animation).
