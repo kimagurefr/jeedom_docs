@@ -26,7 +26,8 @@ Certaines fonctionnalités peuvent ne pas être disponibles sur les guirlandes d
 - [Commandes des équipements](#commandes-des-équipements)
   - [Commandes actions](#commandes-actions)
   - [Commandes infos](#commandes-infos)
-- [Gestion des animations et playlists](#gestion-des-animations-et-playlists)
+- [Gestion des animations](#gestion-des-animations)
+- [Gestion de la playlist](#gestion-de-la-playlist)
 - [Capture des animations](#capture-des-animations)
     - [Etape 1 - Arrêt du rafraîchissement automatique](#etape-1---arrêt-du-rafraîchissement-automatique)
     - [Etape 2 - Démarrage du proxy](#etape-2---démarrage-du-proxy)
@@ -37,6 +38,8 @@ Certaines fonctionnalités peuvent ne pas être disponibles sur les guirlandes d
     - [Etape 6 - Désactiver le proxy sur le smartphone](#etape-6---désactiver-le-proxy-sur-le-smartphone)
     - [Etape 7 - Rétablissement du rafraîchissement automatique](#etape-7---rétablissement-du-rafraîchissement-automatique)
 - [Changelog](#changelog)
+
+
 
 # <img align="left" src="../images/warning.png">Information importante
 
@@ -50,7 +53,7 @@ Pour contourner ce problème, notamment pendant les phases de capture des animat
 
 Après installation du plugin depuis le market Jeedom et son activation, il est nécessaire d'installer les dépendances pour pouvoir utiliser la fonction de capture des animations (package mitmproxy).
 
-Il y a 2 paramètres disponibles dans la configuration générale du plugin :
+Il y a 3 paramètres disponibles dans la configuration générale du plugin :
 
 - la fréquence à laquelle le plugin appelera l'API des différents contrôleurs Twinkly pour récupérer la mise à jour des informations (état, luminosité). Cette fréquence est de 10 secondes par défaut.
 - le port HTTP du proxy qui sera lancé sur le serveur Jeedom pour [capturer les animations](#capture-des-animations) depuis l'application mobile.
@@ -68,24 +71,24 @@ Depuis la page du plugin (Objets Connectés > Twinkly), il faut ensuite créer o
 
 
 
-La solution la plus simple est d'utiliser le bouton <img src="../images/recherche.png" alt="Recherche" style="zoom: 25%;" /> pour lancer la découverte automatique des équipements.
+La solution la plus simple est d'utiliser le bouton <img src="../images/recherche.png"/> pour lancer la découverte automatique des équipements.
 
 
 
-Si la découverte automatique ne fonctionne pas (équipements sur un réseau différent, ou trafic UDP broadcast bloqué), il est possible de créer les équipements manuellement. Il faut alors fournir les informations suivantes :
+Si la découverte automatique échoue (équipements sur un réseau différent, ou trafic UDP broadcast bloqué), il est possible de créer les équipements manuellement. Il faut alors fournir les informations suivantes qui sont nécessaire pour se connecter et s'authentifier sur le contrôleur :
 
 - L'adresse IP de la guirlande
 - L'adresse MAC
 
 ![Configuration Equipement](../images/config_equipement.png)
 
-Ces 2 informations sont trouvables dans l'application mobile Twinkly.
+Ces 2 informations sont trouvables dans la page du détail de l'équipement (dernier onglet, "Devices") dans l'application mobile Twinkly.
 
 ![](../images/config_equipement2.png)
 
 Après sauvegarde de l'équipement, les caractéristiques seront récupérées depuis le contrôleur de la guirlande.
 
-Dans cet écran, il est également possible de désactiver le rafraîchissement automatique des informations, pour ne pas perturber l'application mobile.
+Dans cet écran, il est également possible de désactiver le rafraîchissement automatique des informations, si vous souhaitez temporairement utiliser l'application mobile pour paramétrer vos guirlandes.
 
 
 
@@ -106,32 +109,53 @@ Chaque équipement dispose des commandes suivantes
 Ces valeurs sont rafraîchies automatiquement à la fréquence choisie sur la page de configuration du plugin, ou manuellement via la commande ``Refresh`` si la mise à jour est désactivée.
 
 - ``Etat luminosité`` Valeur actuelle de la luminosité de la guirlande (0-100)
-- ``Etat`` Mode courant de la guirlande (off/movie)
+- ``Etat`` Mode courant de la guirlande (off/movie/playlist)
 
 
 
-## Gestion des animations et playlists
+## Gestion des animations
 
-Les animations disponibles pour chaque équipement (guirlande) sont gérées par la fenêtre accessible en utilisant le bouton <img src="../images/bouton_animations.png" style="zoom:33%;" />
+Les animations disponibles pour chaque équipement (guirlande) sont gérées par la fenêtre accessible en utilisant le bouton <img src="../images/bouton_animations.png" />
 
-![Fenêtre de gestion des animations](../images/animations.png)
+![Fenêtre de gestion des animations](../images/modal_animations.png)
+
+
+
+Les animations présentes dans cette liste se retrouveront dans la liste déroulante de la commande Animation de l'équipement qui permettra de choisir l'animation à "afficher" sur la guirlande.
 
 Depuis cette fenêtre, il est possible :
 
-- d'ajouter une animation depuis un fichier zip qui aura préalablement été capture puis sauvegardé sur disque, en utilisant le bouton **Ajouter**
+- de [capturer une animation](#Capture-des-animations) envoyée par l'application mobile pour pouvoir l'utiliser avec la guirlande
+
+- d'ajouter une animation depuis un fichier zip qui aura préalablement été capture puis sauvegardé sur disque, en utilisant le bouton **Ajouter...**
+
 - de supprimer une animation de la liste, en cochant la case correspondante, puis en cliquant sur le bouton **Supprimer**
+
 - de télécharger sur le disque local une animation préalablement capturée en cliquant sur l'icône de téléchargement 
-- de changer le titre affiché dans la liste pour chaque animation. La valeur initiale est récupérée lors de la capture pour les guirlandes "gen 2" (compatibles "playlist"). Pour les guirlandes gen1, le nom n'est pas envoyé par l'application mobile, un nom est généré automatiquement lors de la capture
+
+- de changer le titre affiché dans la liste pour chaque animation. La valeur initiale est récupérée lors de la capture pour les guirlandes "gen 2" (compatibles "playlist"). Pour les guirlandes gen1, le nom n'est pas envoyé par l'application mobile, un nom est généré automatiquement lors de la capture, il est évidemment conseillé de le changer pour un nom plus descriptif
+
 - de réordonner la liste des animations via drag-and-drop, pour choisir l'ordre d'affichage dans la liste déroulante "movies" de l'équipement
-- de vider les animations chargées en mémoire. Elles devront être téléchargées de nouveau vers le contrôleur à la prochaine utilisation
 
-Il est également possible de gérer les **playlists**
+  
 
-- Création d'une nouvelle playlist à partir des animations sélectionnées. La playlist actuellement en mémoire est perdue
-- Ajout des animations sélectionnées à la playlist courante
-- Suppression de la playlist courante
+## Gestion de la playlist
 
-Lors de l'ajout de plusieurs animations à la playlist, l'ordre est le même que l'ordre l'affichage sur l'écran de gestion. Il est possible de réordonner les lignes pour choisir l'ordre voulu avant d'ajouter les animations. Sans cliquer sur le bouton Sauvegarder, l'ordre d'origine sera conservé pour la liste déroulante "movies".
+La "playlist" est une sélection des animations disponibles pour la guirlande avec pour chacune d'elle le temps où elle restera affichée. Le contrôleur Twinkly ne gère qu'une seule playlist à la fois.
+
+Pour choisir les animations à intégrer à la playlist, il faut utiliser le bouton <img src="../images/bouton_playlist.png" />disponible sur l'écran de paramétrage de l'équipement.
+
+<img src="../images/modal_playlist.png">
+
+Depuis cet écran, il est possible :
+
+- D'ajouter une animation choisie parmi les animations disponibles dans l'écran **Gérer les animations**
+- De choisir le temps d'affichage de chacune des animations (en secondes)
+- De supprimer une animation de la playlist en cliquant sur le signe (-)
+- De réordonner les animations dans la playlist en déplaçant les lignes
+- D'effacer la playlist courante
+- D'effacer toutes les animations en mémoire dans le contrôleur pour libérer de la mémoire. Les animations envoyées par la commande Animation ou une playlist seront chargées dans le contrôleur lors de leur première utilisation.
+- De sauvegarder la playlist courante. Cela activera automatiquement le mode playlist.
 
 
 
@@ -155,7 +179,7 @@ Les étapes du processus de capture sont décrites ci-dessous.
 
 #### Etape 1 - Arrêt du rafraîchissement automatique
 
-Comme expliqué en [introduction](#information-importante), le contrôleur Twinkly est limité à un seul appareil de commande à la fois.
+Comme expliqué en [introduction](#information-importante), le contrôl*eur Twinkly est limité à un seul appareil de commande à la fois.
 
 Comme on doit utiliser l'application mobile dans la procédure ci-dessous, il est nécessaire d'interrompre temporairement la collecte automatique des données par le plugin, sous peine de déconnecter l'application mobile pendant son utilisation.
 
