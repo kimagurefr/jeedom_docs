@@ -13,15 +13,34 @@ Listes des fonctionnalités disponibles :
 - Pilotage simple on/off
 - Contrôle du niveau de luminosité
 - Chargement d'une animation sur la guirlande
+- Gestion de la playlist (enchaînement automatique des animations)
 - [Capture des animations](#capture-des-animations) envoyés vers la guirlande depuis l'application mobile officielle Twinkly pour pouvoir ensuite les charger sur le sapin.
 
-Certaines fonctionnalités peuvent ne pas être disponibles sur les guirlandes d'anciennes générations ("gen 1") à cause de limitation du contrôleur ou du firmware.
+Certaines fonctionnalités peuvent ne pas être disponibles sur les guirlandes d'anciennes générations ("gen 1") à cause de limitation du contrôleur ou du firmware
 
+## Table des matières
 
+- [Information importante](#img-alignleft-srcimageswarningpnginformation-importante)
+- [Installation du plugin](#installation-du-plugin)
+- [Découverte et paramétrage des équipements](#découverte-et-paramétrage-des-équipements)
+- [Commandes des équipements](#commandes-des-équipements)
+  - [Commandes actions](#commandes-actions)
+  - [Commandes infos](#commandes-infos)
+- [Gestion des animations et playlists](#gestion-des-animations-et-playlists)
+- [Capture des animations](#capture-des-animations)
+    - [Etape 1 - Arrêt du rafraîchissement automatique](#etape-1---arrêt-du-rafraîchissement-automatique)
+    - [Etape 2 - Démarrage du proxy](#etape-2---démarrage-du-proxy)
+    - [Etape 3 - Configuration du smartphone (sur des mobiles Apple)](#etape-3---configuration-du-smartphone-sur-des-mobiles-apple)
+    - [Etape 3 - Configuration du smartphone (sur des mobiles Android)](#etape-3---configuration-du-smartphone-sur-des-mobiles-android)
+    - [Etape 4 - Utilisation de l'app mobile Twinkly](#etape-4---utilisation-de-lapp-mobile-twinkly)
+    - [Etape 5 - Arrêt de la capture et récupération des fichiers](#etape-5---arrêt-de-la-capture-et-récupération-des-fichiers)
+    - [Etape 6 - Désactiver le proxy sur le smartphone](#etape-6---désactiver-le-proxy-sur-le-smartphone)
+    - [Etape 7 - Rétablissement du rafraîchissement automatique](#etape-7---rétablissement-du-rafraîchissement-automatique)
+- [Changelog](#changelog)
 
-## <img align="left" src="../images/warning.png">Information importante
+# <img align="left" src="../images/warning.png">Information importante
 
-A cause d'une limitation du mécanisme d'authentification sur le contrôleur Twinkly, il est n'est possible d'utiliser qu'**un seul outil à la fois** pour piloter une guirlande. Il n'est donc pas possible d'utiliser confortablement et sans erreur le plugin en même temps que l'app mobile. Cette limitation n'est pas spécifique à ce plugin, mais empêche également l'utilisation simultanée de plusieurs smartphones pour piloter une même guirlande : voir la [FAQ](https://www.twinkly.com/knowledge/how-to-manage-twinkly-from-multiple-smartphone/) sur le site de Twinkly.
+A cause d'une limitation du mécanisme d'authentification sur le contrôleur Twinkly, il est n'est possible d'utiliser qu'**une seule application à la fois** pour piloter une guirlande. Il n'est donc pas possible d'utiliser confortablement et sans erreur le plugin en même temps que l'app mobile. Cette limitation n'est pas spécifique à ce plugin, mais empêche également l'utilisation simultanée de plusieurs smartphones pour piloter une même guirlande : voir la [FAQ](https://www.twinkly.com/knowledge/how-to-manage-twinkly-from-multiple-smartphone/) sur le site de Twinkly.
 
 Pour contourner ce problème, notamment pendant les phases de capture des animations qui se font au travers de l'app mobile, il est possible de désactiver temporairement le rafraichissement automatique des informations d'une guirlande par le plugin. Plus aucun accès n'est donc fait en arrière plan par le plugin, et l'app mobile est pleinement utilisable.
 
