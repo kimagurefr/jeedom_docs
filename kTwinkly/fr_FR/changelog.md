@@ -6,6 +6,12 @@
 
 
 
+## ``BETA`` 26 Janvier 2021
+
+Meilleure gestion des tokens d'authentification.
+
+Ajout d'une option pour vider systématiquement la mémoire du contrôleur lors du chargement des playlists. A utiliser lors d'un changement "massif" de la playlist, ou lors du chargement d'une grosse playlist pour éviter de saturer la mémoire. A utiliser également en cas d'erreur de chargement de la playlist. A terme, un test de la mémoire disponible sera réalisé avant upload pour éviter de tenter de charger une liste trop grosse, mais ce n'est pas encore implémenté.s
+
 ## ``BETA`` 16 Décembre 2020
 
 Nouvel écran dédié de gestion de la playlist, avec possibilité de choisir la durée de chaque animation.

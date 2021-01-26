@@ -55,7 +55,7 @@ Après installation du plugin depuis le market Jeedom et son activation, il est 
 
 Il y a 3 paramètres disponibles dans la configuration générale du plugin :
 
-- la fréquence à laquelle le plugin appelera l'API des différents contrôleurs Twinkly pour récupérer la mise à jour des informations (état, luminosité). Cette fréquence est de 10 secondes par défaut.
+- la fréquence à laquelle le plugin appelera l'API des différents contrôleurs Twinkly pour récupérer la mise à jour des informations (état, luminosité). Cette fréquence est de 10 secondes par défaut. La passer à 0 pour désactiver le rafraîchissement automatique
 - le port HTTP du proxy qui sera lancé sur le serveur Jeedom pour [capturer les animations](#capture-des-animations) depuis l'application mobile.
 - une option de debugging permettant d'activer les logs du proxy de capture. Ces logs seront visibles sous le nom kTwinkly_mitm dans la page de logs de Jeedom. La log est écrasée à chaque démarrage du proxy.
 
@@ -155,7 +155,8 @@ Depuis cet écran, il est possible :
 - De réordonner les animations dans la playlist en déplaçant les lignes
 - D'effacer la playlist courante
 - D'effacer toutes les animations en mémoire dans le contrôleur pour libérer de la mémoire. Les animations envoyées par la commande Animation ou une playlist seront chargées dans le contrôleur lors de leur première utilisation.
-- De sauvegarder la playlist courante. Cela activera automatiquement le mode playlist.
+  *Note : il est également possible de vider systématiquement la mémoire du contrôleur avant l'upload d'une playlist, en cochant l'option correspondante dans les paramètres de l'équipement (sous l'IP et l'adresse MAC)*
+- De sauvegarder la playlist courante. Cela activera automatiquement le mode playlist sur la guirlande.
 
 
 
