@@ -6,6 +6,10 @@
 
 
 
+## ``BETA`` 28 Janvier 2021
+
+Correction d'un bug lié au cache des tokens dans le cas de guirlandes multiples.
+
 ## ``BETA`` 26 Janvier 2021
 
 Meilleure gestion des tokens d'authentification.
