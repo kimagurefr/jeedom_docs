@@ -6,6 +6,10 @@
 
 
 
+## ``BETA`` 02 Février 2021
+
+Correction pour permettre la désactivation d'un équipement injoignable. La réactivation reste impossible.
+
 ## ``BETA`` 28 Janvier 2021
 
 Correction d'un bug lié au cache des tokens dans le cas de guirlandes multiples.
