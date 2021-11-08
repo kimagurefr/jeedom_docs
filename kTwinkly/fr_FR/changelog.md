@@ -6,11 +6,11 @@
 
 ## ``BETA`` 07 Novembre 2021
 
-Intégration de la dernière version des produits et images depuis l'application mobile. Supporte notamment les gammes Flex et Line.
+Mise à jour de la liste des  produits et des images depuis la dernière version de l'application mobile. Ajoute notamment le support des gammes Flex et Line.
 
 ## ``STABLE`` 17 Octobre 2021
 
-Mise à jour des dépendances pour ajouter une dépendance manquante.
+Ajoute d'une dépendance manquante.
 
 ## ``BETA`` 02 Février 2021
 
