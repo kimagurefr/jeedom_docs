@@ -4,7 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+## ``BETA`` 07 Novembre 2021
 
+Intégration de la dernière version des produits et images depuis l'application mobile. Supporte notamment les gammes Flex et Line.
+
+## ``STABLE`` 17 Octobre 2021
+
+Mise à jour des dépendances pour ajouter une dépendance manquante.
 
 ## ``BETA`` 02 Février 2021
 
