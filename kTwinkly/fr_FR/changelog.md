@@ -7,6 +7,7 @@
 ## ``BETA`` 25 Novembre 2021
 
 Changement impactant : il y a maintenant 2 commandes info différentes : Etat (on/off) et Mode Courant (movie/playlist/off) qui remplace la commande Etat des versions précédentes
+IMPORTANT : Il est nécessaire de supprimer et recréer les équipements.
 Ajout de la gestion du Twinkly Music : découverte automatique des équipements et commandes basic on / off. A cause de ce changement, la découverte d'équipements est un peu plus longue.
 
 
