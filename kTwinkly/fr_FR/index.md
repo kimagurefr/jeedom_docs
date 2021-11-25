@@ -111,6 +111,8 @@ Ces valeurs sont rafraîchies automatiquement à la fréquence choisie sur la pa
 - ``Etat luminosité`` Valeur actuelle de la luminosité de la guirlande (0-100)
 - ``Etat`` Mode courant de la guirlande (off/movie/playlist)
 
+Note : En version ``BETA``, la commande ``Etat`` est remplacée par la commande ``Mode Courant``. La commande ``Etat`` devient un simple état on/off.
+
 
 
 ## Gestion des animations
