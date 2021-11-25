@@ -4,21 +4,31 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+## ``BETA`` 25 Novembre 2021
+
+Changement impactant : il y a maintenant 2 commandes info différentes : Etat (on/off) et Mode Courant (movie/playlist/off) qui remplace la commande Etat des versions précédentes
+Ajout de la gestion du Twinkly Music : découverte automatique des équipements et commandes basic on / off. A cause de ce changement, la découverte d'équipements est un peu plus longue.
+
+
 ## ``BETA`` 07 Novembre 2021
 
-Mise à jour de la liste des  produits et des images depuis la dernière version de l'application mobile. Ajoute notamment le support des gammes Flex et Line.
+Mise à jour de la liste des produits et des images depuis la dernière version de l'application mobile. Ajoute notamment le support des gammes Flex et Line.
+
 
 ## ``STABLE`` 17 Octobre 2021
 
 Ajoute d'une dépendance manquante.
 
+
 ## ``BETA`` 02 Février 2021
 
 Correction pour permettre la désactivation d'un équipement injoignable. La réactivation reste impossible.
 
+
 ## ``BETA`` 28 Janvier 2021
 
 Correction d'un bug lié au cache des tokens dans le cas de guirlandes multiples.
+
 
 ## ``BETA`` 26 Janvier 2021
 
@@ -26,13 +36,16 @@ Meilleure gestion des tokens d'authentification.
 
 Ajout d'une option pour vider systématiquement la mémoire du contrôleur lors du chargement des playlists. A utiliser lors d'un changement "massif" de la playlist, ou lors du chargement d'une grosse playlist pour éviter de saturer la mémoire. A utiliser également en cas d'erreur de chargement de la playlist. A terme, un test de la mémoire disponible sera réalisé avant upload pour éviter de tenter de charger une liste trop grosse, mais ce n'est pas encore implémenté.
 
+
 ## ``BETA`` 16 Décembre 2020
 
 Nouvel écran dédié de gestion de la playlist, avec possibilité de choisir la durée de chaque animation.
 
+
 ## ``STABLE`` 15 Décembre 2020
 
 Gestion des playlists, sans possibilité de changer le timing pour l'instant (30 secondes entre chaque animation).
+
 
 ## ``BETA`` 14 Décembre 2020
 
