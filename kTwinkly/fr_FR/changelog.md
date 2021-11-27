@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+## ``BETA`` 27 Novembre 2021
+
+Corrections pour Twinkly Music
+
+
 ## ``BETA`` 25 Novembre 2021
 
 Changement impactant : il y a maintenant 2 commandes info différentes : Etat (on/off) et Mode Courant (movie/playlist/off) qui remplace la commande Etat des versions précédentes.
