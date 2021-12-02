@@ -4,6 +4,18 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+## ``STABLE`` 2 Décembre 2021
+
+Passage de toutes les modifications de la dernière ``BETA`` en ``STABLE``
+ - Amélioration de la gestion des authentifications. Normalement, moins d'erreurs en cas d'utilisation simultanée de Jeedom et de l'app sur smartphone.
+ - Gestion avancée des playlists sur les guirlande Gen II
+ - Support minimal de Twinkly Music
+ - Correction de l'installation de dépendances (Python 3.7+ et mitmproxy)
+
+**IMPORTANT : Il est nécessaire de supprimer et recréer les équipements pour recréer les commandes et les identifiants internes.**
+**La suppression des équipements efface également les animations liées à la guirlande. Si vous avez capturé des animations, pensez à les télécharger sur votre ordinateur pour pouvoir les remettre en suite.**
+
+
 ## ``BETA`` 27 Novembre 2021
 
 Corrections pour Twinkly Music
