@@ -22,8 +22,8 @@ Certaines fonctionnalités peuvent ne pas être disponibles sur les guirlandes d
 
 - [Information importante](#img-alignleft-srcimageswarningpnginformation-importante)
 - [Installation du plugin](#installation-du-plugin)
-- [Découverte et paramétrage des équipements](#découverte-et-paramétrage-des-équipements)
-- [Commandes des équipements](#commandes-des-%C3%A9quipements)
+- [Découverte et paramétrage des équipements](#dcouverte-et-paramtrage-des-quipements)
+- [Commandes des équipements](#commandes-des-quipements)
   - [Commandes actions](#commandes-actions)
   - [Commandes infos](#commandes-infos)
 - [Gestion des animations](#gestion-des-animations)
