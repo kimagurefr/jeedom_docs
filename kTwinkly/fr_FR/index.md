@@ -23,22 +23,21 @@ Certaines fonctionnalités peuvent ne pas être disponibles sur les guirlandes d
 - [Information importante](#img-alignleft-srcimageswarningpnginformation-importante)
 - [Installation du plugin](#installation-du-plugin)
 - [Découverte et paramétrage des équipements](#découverte-et-paramétrage-des-équipements)
-- [Commandes des équipements](#commandes-des-équipements)
+- [Commandes des équipements](#commandes-des-%C3%A9quipements)
   - [Commandes actions](#commandes-actions)
   - [Commandes infos](#commandes-infos)
 - [Gestion des animations](#gestion-des-animations)
 - [Gestion de la playlist](#gestion-de-la-playlist)
 - [Capture des animations](#capture-des-animations)
-    - [Etape 1 - Arrêt du rafraîchissement automatique](#etape-1---arrêt-du-rafraîchissement-automatique)
-    - [Etape 2 - Démarrage du proxy](#etape-2---démarrage-du-proxy)
+    - [Etape 1 - Arrêt du rafraîchissement automatique](#etape-1---arrt-du-rafrachissement-automatique)
+    - [Etape 2 - Démarrage du proxy](#etape-2---dmarrage-du-proxy)
     - [Etape 3 - Configuration du smartphone (sur des mobiles Apple)](#etape-3---configuration-du-smartphone-sur-des-mobiles-apple)
     - [Etape 3 - Configuration du smartphone (sur des mobiles Android)](#etape-3---configuration-du-smartphone-sur-des-mobiles-android)
     - [Etape 4 - Utilisation de l'app mobile Twinkly](#etape-4---utilisation-de-lapp-mobile-twinkly)
-    - [Etape 5 - Arrêt de la capture et récupération des fichiers](#etape-5---arrêt-de-la-capture-et-récupération-des-fichiers)
-    - [Etape 6 - Désactiver le proxy sur le smartphone](#etape-6---désactiver-le-proxy-sur-le-smartphone)
-    - [Etape 7 - Rétablissement du rafraîchissement automatique](#etape-7---rétablissement-du-rafraîchissement-automatique)
+    - [Etape 5 - Arrêt de la capture et récupération des fichiers](#etape-5---arrt-de-la-capture-et-rcupration-des-fichiers)
+    - [Etape 6 - Désactiver le proxy sur le smartphone](#etape-6---dsactiver-le-proxy-sur-le-smartphone)
+    - [Etape 7 - Rétablissement du rafraîchissement automatique](#etape-7---rtablissement-du-rafrachissement-automatique)
 - [Changelog](#changelog)
-
 
 
 # <img align="left" src="../images/warning.png">Information importante
@@ -47,6 +46,12 @@ A cause d'une limitation du mécanisme d'authentification sur le contrôleur Twi
 
 Pour contourner ce problème, notamment pendant les phases de capture des animations qui se font au travers de l'app mobile, il est possible de désactiver temporairement le rafraichissement automatique des informations d'une guirlande par le plugin. Plus aucun accès n'est donc fait en arrière plan par le plugin, et l'app mobile est pleinement utilisable.
 
+Assurez-vous que le firmware de vos guirlandes est à jour. Pour les guirlandes "GEN2", il faut que le firmware soit au moins la version 2.5.0.
+
+
+## Changelog
+
+Le changelog est disponible [ici](changelog.md).
 
 
 ## Installation du plugin
@@ -277,7 +282,3 @@ N'oubliez pas de repasser le paramétrage du proxy sur "Aucun" ou "Désactivé" 
 #### Etape 7 - Rétablissement du rafraîchissement automatique
 
 Vous pouvez désormais réactiver le rafraîchissement automatique des informations dans les paramètres de l'équipement.
-
-## Changelog
-
-Le changelog est disponible [ici](changelog.md).
