@@ -21,6 +21,7 @@ Certaines fonctionnalités peuvent ne pas être disponibles sur les guirlandes d
 ## Table des matières
 
 - [Information importante](#img-alignleft-srcimageswarningpnginformation-importante)
+- [Changelog](#changelog)
 - [Installation du plugin](#installation-du-plugin)
 - [Découverte et paramétrage des équipements](#dcouverte-et-paramtrage-des-quipements)
 - [Commandes des équipements](#commandes-des-quipements)
@@ -37,7 +38,6 @@ Certaines fonctionnalités peuvent ne pas être disponibles sur les guirlandes d
     - [Etape 5 - Arrêt de la capture et récupération des fichiers](#etape-5---arrt-de-la-capture-et-rcupration-des-fichiers)
     - [Etape 6 - Désactiver le proxy sur le smartphone](#etape-6---dsactiver-le-proxy-sur-le-smartphone)
     - [Etape 7 - Rétablissement du rafraîchissement automatique](#etape-7---rtablissement-du-rafrachissement-automatique)
-- [Changelog](#changelog)
 
 
 # <img align="left" src="../images/warning.png">Information importante
