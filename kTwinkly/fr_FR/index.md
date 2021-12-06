@@ -187,7 +187,7 @@ Les étapes du processus de capture sont décrites ci-dessous.
 
 #### Etape 1 - Arrêt du rafraîchissement automatique
 
-Comme expliqué en [introduction](#information-importante), le contrôl*eur Twinkly est limité à un seul appareil de commande à la fois.
+Comme expliqué en [introduction](#information-importante), le contrôleur Twinkly est limité à un seul appareil de commande à la fois.
 
 Comme on doit utiliser l'application mobile dans la procédure ci-dessous, il est nécessaire d'interrompre temporairement la collecte automatique des données par le plugin, sous peine de déconnecter l'application mobile pendant son utilisation.
 
