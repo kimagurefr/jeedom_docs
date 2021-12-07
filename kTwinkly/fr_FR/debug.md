@@ -27,7 +27,7 @@ Si le port 8080 utilisé par défaut par mitmdump est déjà pris, utiliser l'op
 
 L'écran suivant doit s'afficher:
 
-(screenshot)
+<img src="../images/mitmdump_window.png" style="zoom:50%;" />
 
 ## Configurer le proxy sur le smartphone
 
