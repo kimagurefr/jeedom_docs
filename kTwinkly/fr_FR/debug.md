@@ -14,8 +14,11 @@ Il faudra ensuite tranférer le fichier de dump vers une autre machine.
 
 On utilisera la version zip plutôt que l'outil d'installation.
 
-Télécharger le package zip de mitmproxy : [mitmproxy-7.0.4-windows.zip](https://snapshots.mitmproxy.org/7.0.4/mitmproxy-7.0.4-windows.zip)
-Le décompresser dans un dossier c:\mitmproxy. Si un sous dossier a été créé lors de l'extraction, déplacer les fichiers directement dans c:\mitmproxy
+Télécharger le package zip de mitmproxy : [mitmproxy-7.0.4-windows.zip](https://snapshots.mitmproxy.org/7.0.4/mitmproxy-7.0.4-windows.zip)1
+
+Le décompresser dans un dossier c:\mitmproxy.
+
+Si un sous dossier a été créé lors de l'extraction, déplacer les fichiers directement dans c:\mitmproxy
 
 ## Démarrage du proxy de capture
 
@@ -31,7 +34,7 @@ L'écran suivant doit s'afficher:
 
 ## Configurer le proxy sur le smartphone
 
-Configurer le proxy sur le smartphone en utilisant la procédure décrite [dans la documentation du plugin](https://kimagurefr.github.io/jeedom_docs/kTwinkly/fr_FR/#etape-3---configuration-du-smartphone-sur-des-mobiles-apple)
+Configurer le proxy sur le smartphone en utilisant la procédure décrite [dans la documentation du plugin](https://kimagurefr.github.io/jeedom_docs/kTwinkly/fr_FR/#etape-3---configuration-du-smartphone-sur-des-mobiles-apple).
 
 Utiliser l'adresse IP de la machine où s'exécute mitmdump, et le port (8080 par défaut, ou la valeur spécifiée par l'option -p)
 
