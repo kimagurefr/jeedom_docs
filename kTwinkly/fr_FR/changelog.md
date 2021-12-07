@@ -4,6 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+## ``BETA`` 7 Décembre 2021
+
+Correction du on/off sur les GEN1 qui n'ont aucune animation de chargée
+
+Ajout de nouvelles commandes dans la classe de gestion TwinklyStrings, non encore implémentées dans le plugin (à venir pour une prochaine release)
+
 ## ``STABLE`` 2 Décembre 2021
 
 Passage de toutes les modifications de la dernière ``BETA`` en ``STABLE``
