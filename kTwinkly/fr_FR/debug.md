@@ -1,4 +1,7 @@
-# Capture des requêtes de l'application smartphone
+---
+title: Jeedom | Plugin kTwinkly
+description: Captures des requêtes de l'application smartphone
+---
 
 La procédure suivante peut être utilisée pour capturer les échanges entre l'application smartphone Twinkly et les guirlandes, pour du diagnostic, ou pour permettre d'implémenter de nouvelles fonctionnalités.
 
