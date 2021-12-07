@@ -14,7 +14,7 @@ Il faudra ensuite tranférer le fichier de dump vers une autre machine.
 
 On utilisera la version zip plutôt que l'outil d'installation.
 
-Télécharger le package zip de mitmproxy : [mitmproxy-7.0.4-windows.zip](https://snapshots.mitmproxy.org/7.0.4/mitmproxy-7.0.4-windows.zip)1
+Télécharger le package zip de mitmproxy : [mitmproxy-7.0.4-windows.zip](https://snapshots.mitmproxy.org/7.0.4/mitmproxy-7.0.4-windows.zip)
 
 Le décompresser dans un dossier c:\mitmproxy.
 
