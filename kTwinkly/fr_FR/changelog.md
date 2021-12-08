@@ -4,6 +4,18 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+
+## ``BETA`` 8 Novembre 2021
+
+Corrections de bugs :
+ - Correction d'un bug sur la gestion des playlists qui provoquait des erreurs 1106
+ - Correction de l'option "vider la mémoire" qui n'avait pas d'effet. Si cette case est cochée la mémoire sera complétement vidée lors de l'envoi d'une animation ou l'enregistrement d'une playlist. Sinon, les animations déjà en mémoire seront conservées.
+
+Ajout de nouvelles commandes :
+ - Action pour vider la mémoire. Il est toujours possible de vider la mémoire par le bouton présent sur l'écran de la playlist
+ - Utilisation basique du mode "couleur"
+
+
 ## ``STABLE`` 7 Décembre 2021
 
 Correction du on/off sur les GEN1 qui n'ont aucune animation de chargée
