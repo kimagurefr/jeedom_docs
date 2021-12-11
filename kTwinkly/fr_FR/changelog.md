@@ -5,7 +5,23 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
 
-## ``BETA`` 8 Novembre 2021
+## ``BETA`` 11 Décembre 2021
+
+Un grand nombre de corrections sur la gestion des playlists qui devraient éviter beaucoup de problèmes (erreurs 1106).
+
+Possibilité d'exporter/impoter les animations et playlist d'un équipement sous forme d'un fichier zip.
+Modification des actions sur l'écran playlist :
+ - la sauvegarde de la playlist ne la charge pas immédiatement sur la guirlande. Il faut utiliser l'action "Activer"
+ - l'action "Effacer la playlist" ne vide pas la mémoire. IL faut utiliser l'action "Effacer la mémoire" pour cela
+ - il est possible de télécharger une playlist puis de la recharcher plus tard. La gestion de plusieurs playlists viendra (probablement) plus tard
+
+
+## ``STABLE`` 11 Décembre 2021
+
+Passage en stable des modifications de la beta du 8 décembre.
+
+
+## ``BETA`` 8 Décembre 2021
 
 Corrections de bugs :
  - Correction d'un bug sur la gestion des playlists qui provoquait des erreurs 1106
@@ -21,6 +37,7 @@ Ajout de nouvelles commandes :
 Correction du on/off sur les GEN1 qui n'ont aucune animation de chargée
 
 Ajout de nouvelles commandes dans la classe de gestion TwinklyStrings, non encore implémentées dans le plugin (à venir pour une prochaine release)
+
 
 ## ``STABLE`` 2 Décembre 2021
 
