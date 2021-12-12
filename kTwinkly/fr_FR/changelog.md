@@ -13,7 +13,7 @@ Possibilité d'exporter/impoter les animations et playlist d'un équipement sous
 Modification des actions sur l'écran playlist :
  - la sauvegarde de la playlist ne la charge pas immédiatement sur la guirlande. Il faut utiliser l'action "Activer"
  - l'action "Effacer la playlist" ne vide pas la mémoire. IL faut utiliser l'action "Effacer la mémoire" pour cela
- - il est possible de télécharger une playlist puis de la recharcher plus tard. La gestion de plusieurs playlists viendra (probablement) plus tard
+ - il est possible de télécharger une playlist puis de la recharger plus tard. La gestion de plusieurs playlists viendra (probablement) plus tard.
 
 
 ## ``STABLE`` 11 Décembre 2021
