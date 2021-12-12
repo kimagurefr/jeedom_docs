@@ -11,6 +11,9 @@ Corrections diverses :
  - meilleure gestion d'erreur lors de la suppression des playlists et animations 
  - masquage des boutons import/export pour Twinkly Music (non applicable)
  - correction du bouton "Recherche" (détection des équipements) rendu inopérant suite à une modification sur la version précédente
+ - téléchargement de plusieurs animations simultanément sous forme d'un zip (pour l'instant, il n'est pas possible de recharger ce zip directement, il faut charger chaque animation séparément)
+ - ajout de plusieurs animations en même temps
+ - quelques corrections de bugs coté interface graphique
 
 
 ## ``BETA`` 11 Décembre 2021
