@@ -5,6 +5,14 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
 
+## ``BETA`` 12 Décembre 2021
+
+Corrections diverses :
+ - meilleure gestion d'erreur lors de la suppression des playlists et animations 
+ - masquage des boutons import/export pour Twinkly Music (non applicable)
+ - correction du bouton "Recherche" (détection des équipements) rendu inopérant suite à une modification sur la version précédente
+
+
 ## ``BETA`` 11 Décembre 2021
 
 Un grand nombre de corrections sur la gestion des playlists qui devraient éviter beaucoup de problèmes (erreurs 1106).
