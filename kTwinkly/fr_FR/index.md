@@ -95,6 +95,10 @@ Après sauvegarde de l'équipement, les caractéristiques seront récupérées d
 
 Dans cet écran, il est également possible de désactiver le rafraîchissement automatique des informations, si vous souhaitez temporairement utiliser l'application mobile pour paramétrer vos guirlandes.
 
+Il est possible de télécharger l'ensemble des animations chargées sur l'équipement (visibles dans la fenêtre gestion des animations) ainsi que la playlist courante sous forme d'un fichier zip avec le bouton **Exporter**.
+Il sera possible de recharger ensuite ces éléments sur l'équipement avec le bouton **Importer**.
+
+**Important** : les animations sont la plupart du temps dépendantes de l'installation de la guirlande. Recharger un zip d'export après avoir réinstallé différement la guirlande peut ne pas produire l'effet escompté. Il faudra alors refaire une capture des animations après avoir lancé l'analyse à partir de l'application mobile Twinkly. Il n'est pas non plus possible d'importer un fichier zip d'export sur une guirlande d'un type différent (génération, type ou nombre de leds).
 
 
 ## Commandes des équipements
@@ -107,6 +111,9 @@ Chaque équipement dispose des commandes suivantes
 - ``Off`` Extinction de la guirlande (passage au mode "off")
 - ``Luminosité`` Changement du niveau de luminosité de la guirlande (0-100)
 - ``Animation`` Chargement vers la guirlande d'une animation préalablement capturée ou importée
+- ``Playlist`` Démarre la playlist actuellement chargée en mémoire
+- ``Couleur`` Allume les LEDs de la guirlande dans la couleur sélectionnée
+- ``Efface mémoire`` Efface toutes les animations et la playlist actuellement chargées en mémoire
 - ``Refresh`` Rafraîchissement manuel des informations de la guirlande (état, luminosité)
 
 ### Commandes infos
@@ -114,10 +121,11 @@ Chaque équipement dispose des commandes suivantes
 Ces valeurs sont rafraîchies automatiquement à la fréquence choisie sur la page de configuration du plugin, ou manuellement via la commande ``Refresh`` si la mise à jour est désactivée.
 
 - ``Etat luminosité`` Valeur actuelle de la luminosité de la guirlande (0-100)
-- ``Etat`` Mode courant de la guirlande (off/movie/playlist)
-
-Note : En version ``BETA``, la commande ``Etat`` est remplacée par la commande ``Mode Courant``. La commande ``Etat`` devient un simple état on/off.
-
+- ``Etat`` Indique si guirlande est allumée ou éteinte la guirlande (on/off)
+- ``Mode courant`` Indique le mode courante de la guirlande (off/movie/playlist/couleur)
+- ``Animation courante`` Nom de l'animation actuellement affichée (supporté par les guirlandes GEN2 uniquement)
+- ``Couleur courante`` Nom de la couleur actuellement sélectionnée pour le mode couleur
+- ``Mémoire libre`` Affiche le pourcentage de mémoire libre
 
 
 ## Gestion des animations
@@ -134,11 +142,13 @@ Depuis cette fenêtre, il est possible :
 
 - de [capturer une animation](#Capture-des-animations) envoyée par l'application mobile pour pouvoir l'utiliser avec la guirlande
 
-- d'ajouter une animation depuis un fichier zip qui aura préalablement été capture puis sauvegardé sur disque, en utilisant le bouton **Ajouter...**
+- d'ajouter une ou plusieurs animation depuis un fichier zip qui aura préalablement été capture puis sauvegardé sur disque, en utilisant le bouton **Ajouter...** ou en faisant un glisser/déplacer des fichiers zip des animations sur ce bouton
 
-- de supprimer une animation de la liste, en cochant la case correspondante, puis en cliquant sur le bouton **Supprimer**
+- de supprimer une ou plusieurs animation de la liste, en cochant les cases scorrespondante, puis en cliquant sur le bouton **Supprimer**
 
-- de télécharger sur le disque local une animation préalablement capturée en cliquant sur l'icône de téléchargement 
+- de télécharger sur le disque local une animation préalablement capturée en cliquant sur l'icône de téléchargement de cette animation
+
+- de télécharger plusieur animations sur le disque sous la forme d'un fichier zip unique, en sélectionnant les animations et en cliquant sur le bouton **Télécharger**
 
 - de changer le titre affiché dans la liste pour chaque animation. La valeur initiale est récupérée lors de la capture pour les guirlandes "gen 2" (compatibles "playlist"). Pour les guirlandes gen1, le nom n'est pas envoyé par l'application mobile, un nom est généré automatiquement lors de la capture, il est évidemment conseillé de le changer pour un nom plus descriptif
 
@@ -160,10 +170,13 @@ Depuis cet écran, il est possible :
 - De choisir le temps d'affichage de chacune des animations (en secondes)
 - De supprimer une animation de la playlist en cliquant sur le signe (-)
 - De réordonner les animations dans la playlist en déplaçant les lignes
-- D'effacer la playlist courante
-- D'effacer toutes les animations en mémoire dans le contrôleur pour libérer de la mémoire. Les animations envoyées par la commande Animation ou une playlist seront chargées dans le contrôleur lors de leur première utilisation.
+- D'effacer la playlist courante avec le bouton **Effacer la playlist**
+- D'effacer toutes les animations en mémoire dans le contrôleur pour libérer de la mémoire avec le bouton **Effacer la mémoire**. Les animations envoyées par la commande Animation ou une playlist seront chargées dans le contrôleur lors de leur première utilisation.
   *Note : il est également possible de vider systématiquement la mémoire du contrôleur avant l'upload d'une playlist, en cochant l'option correspondante dans les paramètres de l'équipement (sous l'IP et l'adresse MAC)*
-- De sauvegarder la playlist courante. Cela activera automatiquement le mode playlist sur la guirlande.
+- De sauvegarder la playlist courante. Cela ne chargera pas automatiquement la playlist dans le mémoire du controleur
+- De charger la playlist courante dans la mémoire du controleur de la guirlande avec le bouton **Activer**
+- De sauvegarder une playlist sur le disque loca, ou de recharger une playlist sauvegardée avec les boutons **Charger** et **Télécharger**
+
 
 
 
