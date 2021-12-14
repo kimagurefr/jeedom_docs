@@ -4,6 +4,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+## ``BETA`` 14 Décembre 2021
+
+Quelques corrections de bugs.
+
+Indication de l'animation courante en mode playlist et movie (en GEN2 uniquement, non supporté en GEN1).
+
+**IMPORTANT : Il y a eu quelques changements sur la création des commandes. Je conseille de supprimer et recréer les équipements. N'oubliez pas de sauvegarder vos animationset playlist localement pour pouvoir les recharger (en utilisant la fonction export/import).**
+
 
 ## ``BETA`` 12 Décembre 2021
 
