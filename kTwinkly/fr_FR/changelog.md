@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+## ``BETA`` 18 Décembre 2021
+
+Possibilité d'ajouter des images pour les équipements qui n'en disposent pas.
+
+Limitation de la taille d'une playlist à 15 animations maximum.
+
+
 ## ``BETA`` 14 Décembre 2021
 
 Quelques corrections de bugs.
