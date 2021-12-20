@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+## ``BETA`` 20 Décembre 2021
+
+Suppression de la commande "Effacer mémoire" pour les guirlandes GEN1 (cette opération n'est pas supportée par le firmware)
+
+
 ## ``BETA`` 18 Décembre 2021
 
 Possibilité d'ajouter des images pour les équipements qui n'en disposent pas.
