@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+## ``BETA`` 19 Octobre 2022
+
+Modification de la page des commandes pour s'adapter aux nouveautés du core 4.3.
+Correction du bouton Tester manquant sur les commandes actions.
+
 ## ``BETA`` 20 Décembre 2021
 
 Suppression de la commande "Effacer mémoire" pour les guirlandes GEN1 (cette opération n'est pas supportée par le firmware)
