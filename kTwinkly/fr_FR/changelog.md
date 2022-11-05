@@ -4,6 +4,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+## ``STABLE`` 5 Novembre 2022
+
+Passage en stable de toutes les évolutions et corrections disponibles en beta.
+
+**IMPORTANT : Si vous venez de la version stable, il est nécessaire de supprimer et recréer les équipements pour recréer les commandes et les identifiants internes.**
+**La suppression des équipements efface également les animations liées à la guirlande. Si vous avez capturé des animations, pensez à les télécharger sur votre ordinateur pour pouvoir les remettre en suite.**
+**Cette opération n'est pas nécessire si vous venez de la dernière beta**
+
 ## ``BETA`` 19 Octobre 2022
 
 Modification de la page des commandes pour s'adapter aux nouveautés du core 4.3.
