@@ -7,8 +7,10 @@
 ## ``BETA`` 5 Décembre 2022
 
 Mise à jour de la liste des produits depuis la dernière version de l'application Twinkly.
-Corrections sur l'upload des animations et playlists par drag and drop
-Quelques corrections cosmétiques
+
+Corrections sur l'upload des animations et playlists par drag and drop.
+
+Quelques corrections cosmétiques.
 
 ## ``BETA`` 22 Novembre 2022
 
@@ -25,6 +27,7 @@ Passage en stable de toutes les évolutions et corrections disponibles en beta.
 ## ``BETA`` 19 Octobre 2022
 
 Modification de la page des commandes pour s'adapter aux nouveautés du core 4.3.
+
 Correction du bouton Tester manquant sur les commandes actions.
 
 ## ``BETA`` 20 Décembre 2021
@@ -64,6 +67,7 @@ Corrections diverses :
 Un grand nombre de corrections sur la gestion des playlists qui devraient éviter beaucoup de problèmes (erreurs 1106).
 
 Possibilité d'exporter/impoter les animations et playlist d'un équipement sous forme d'un fichier zip.
+
 Modification des actions sur l'écran playlist :
  - la sauvegarde de la playlist ne la charge pas immédiatement sur la guirlande. Il faut utiliser l'action "Activer"
  - l'action "Effacer la playlist" ne vide pas la mémoire. IL faut utiliser l'action "Effacer la mémoire" pour cela
