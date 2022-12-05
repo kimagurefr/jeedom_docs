@@ -4,6 +4,16 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+## ``BETA`` 5 Décembre 2022
+
+Mise à jour de la liste des produits depuis la dernière version de l'application Twinkly.
+Corrections sur l'upload des animations et playlists par drag and drop
+Quelques corrections cosmétiques
+
+## ``BETA`` 22 Novembre 2022
+
+Une action sur la luminosité permet d'allumer (luminosité > 0) ou d'éteindre (luminosité = 0) la guirlande.
+
 ## ``STABLE`` 5 Novembre 2022
 
 Passage en stable de toutes les évolutions et corrections disponibles en beta.
