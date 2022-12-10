@@ -4,6 +4,15 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de traduction ou de texte.
 
+## ``BETA`` (non encore publiée)
+
+Cette version retire la fonctionnalité de capture des animations directement depuis le plugin jeedom, afin d'éliminer toute dépendance externe (notamment Python).
+Cette fonctionnalité de capture sera offerte à partir d'un module externe fonctionnant sur Windows, MacOS ou Linux.
+
+## ``BETA`` 10 Décembre 2022
+
+Corrections liées à la vérification des dépendances.
+
 ## ``BETA`` 5 Décembre 2022
 
 Mise à jour de la liste des produits depuis la dernière version de l'application Twinkly.
