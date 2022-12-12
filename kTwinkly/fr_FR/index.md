@@ -182,6 +182,8 @@ Depuis cet écran, il est possible :
 
 ## Capture des animations
 
+Nouveau process de capture (beta): pour éviter les problèmes liés aux dépendances Python nécessaire à l'outil de capture des animations, la fonctionnalité va être supprimée du plugin Jeedom, et sera disponible sous forme d'un package à utiliser sur un PC sous Windows ou MacOS. Les animations capturées, au format zip, pourront ensuite être ajoutée au plugin depuis l'écran de gestion des animations. Voir [cette page](capturetool.md).
+
 Les animations (séquence d'allumage/extinction des leds de la guirlande dans les différentes couleurs), appelées "*movies*" dans l'API Twinkly, sont des fichiers binaires composés de multiples séquences de 3 octets indiquant l'intensité de rouge, vert et bleu pour chacune des leds de la guirlande.
 
 Les animations sont spécifiques à chaque guirlande et sont calculées lors de la phase d'analyse réalisée depuis l'application mobile Twinkly (capture de la disposition des leds via l'appareil photo du smartphone, puis calcul en local ou via le cloud Twinkly).
