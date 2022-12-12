@@ -1,5 +1,7 @@
 # Outil de capture des animations
 
+[Retour à la documentation du plugin](index.md)
+
 Ce package utilise l'outil opensource mitmproxy (mitmdump) pour capturer les échanges entre l'application Twinkly s'exécutant sur votre smartphone et le contrôleur de la guirlande lorsqu'une animation est téléchargée sur la guirlande. Les informations sur l'animation sont sauvegardées dans un fichier zip qu'il faut ensuite charger sur le plugin Jeedom. L'animation pourra ensuite être envoyée à la guirlande depuis Jeedom et intégrée dans une playlist.
 
 ## ``PRE-VERSION`` 12 Décembre 2012
